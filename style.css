@@ -1,0 +1,172 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+body{
+    background: #B8F1B0;
+    font-family: 'Roboto', sans-serif;;
+    
+}
+img{
+    margin: 40px 0px 0px 20px;
+}
+#imgLupa{
+  height: 250px;
+  width: 200px;
+  position: absolute;
+  top: 50%;
+  left: 45%;
+  transform: translate(-50%,-50%);
+}
+
+.principal{
+  align-items:center;
+  display: flex;
+  flex-direction:column;
+  margin: 100px;
+  padding: 5px;
+ top: 40%;
+
+  
+}
+.esconder{
+  display:none;
+}
+.mostrador {
+    width: 19%;
+    height: 85%;    
+   
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px (0, 0, 0, 0.1);
+    background-color: #FFEDED;
+    position: fixed;
+    top: 10px;
+    right: 10px;      
+    color:black;
+    padding: 10px;
+    border-radius: 25px;
+    margin-top: 20px;
+  }   
+.texto__mostrador {
+    padding: 20px;
+    
+    
+  }
+
+.mostrador__mensagem {
+    font-size: 1.1em;  
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%,-50%); 
+    color: #333;
+    
+    
+  }
+
+  #mensagemOculta{
+    position: absolute;
+    top: 83%;
+    left: 55%;
+    transform: translate(-50%, -50%);
+    color: #163020;
+  }
+.btnCopia{
+    padding: 10px;
+    width: 150px;
+    border-radius: 15px;
+    background-color: #49FF00;
+    color: #000000;
+    position: absolute;
+    top: 92%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: none;
+    cursor: pointer;
+    
+}
+.btnCopia:hover{
+  background-color: #B6EB7A;
+}
+  
+
+textarea{
+   
+    padding: 10px;
+    width: 400px;
+    margin-right:209px;
+    justify-content: center;
+    text-align: center;
+    font-size: 1.8em;
+    background-color: #FFEDED;
+    color: #333;
+  }
+
+
+.decodificar{
+    padding: 10px;    
+    align-items: center;
+    justify-content: center;      
+    margin: 0;
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 15px;
+    width: 200px;
+    background-color: #49FF00;
+    border: none;
+    cursor: pointer;
+    color:black;
+    
+  }
+  .crip:hover{
+    background-color: #B6EB7A
+  }
+
+.codificar{
+    padding: 10px;    
+    align-items: center;
+    justify-content: center;      
+    margin: 0;
+    position: absolute;
+    top: 90%;
+    left: 35%;
+    transform: translate(-50%, -50%);
+    border-radius: 15px;
+    width: 200px;
+    background-color:#49FF00;
+    color: black;
+    border: none;
+    cursor: pointer;
+  }
+  .dis:hover{
+    background-color: #B6EB7A;
+  }
+  
+.box p{
+    text-align: center;
+    padding: 12px;
+    position: absolute;
+    bottom: 100px;
+    left: 31%;
+    
+        
+  }
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 12px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+
+
+
+
+  

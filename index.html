@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Criptografar Words</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    
+    <div class="mostrador">        
+        <div class="texto__mostrador">
+          <h2 class="mostrador__mensagem" id="texto" >Aguardando seu texto para codificar...</h2> 
+          <img id="imgLupa" src="img/audit-3411617_1920.png" alt="imagem de uma lupa">       
+        </div>
+        <h3 id="mensagemOculta" class="esconder" disabled>Mensagem Copiada</h3>
+        <button class="btnCopia" onclick="mostrar('mensagemOculta')">Copiar</button>
+      </div>
+      <div class="principal">
+        <textarea name="" id="" cols="40" rows="3"  sentences placeholder="Digite o seu texto aqui..." ></textarea>
+       
+        
+      </div>
+      <div class="box">
+        <button onclick="chamarDescripotor()" class="decodificar"> Decodificar</button>
+        <button onclick="chamarCripto()" class="codificar">Codificar</button>        
+        <p> <strong>ⓘ Apenas letras minúsculas e sem acento.</strong></p>
+      </div>
+      <footer>
+        <p>&copy; Direitos reservados, Dayse Ramos 2024</p>
+      </footer>
+
+  <script src="app.js"></script>  
+</body>
+</html>
